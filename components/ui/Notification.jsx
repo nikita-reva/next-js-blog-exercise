@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import reactDom from 'react-dom';
 
 import classes from './Notification.module.css';
 
@@ -18,7 +18,7 @@ function Notification(props) {
 
   const cssClasses = `${classes.notification} ${statusClasses}`;
 
-  return ReactDOM.createPortal(
+  return reactDom.createPortal(
     <div className={cssClasses}>
       <h2>{title}</h2>
       <p>{message}</p>
