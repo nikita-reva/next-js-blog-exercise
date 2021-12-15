@@ -8,10 +8,7 @@ function AllPostsPage({ posts }) {
     <Fragment>
       <Head>
         <title>All Posts</title>
-        <meta
-          name="description"
-          content="A list of posts about shiddin' and farddin'!"
-        />
+        <meta name="description" content="A list of posts coding" />
       </Head>
       <AllPosts posts={posts} />
     </Fragment>

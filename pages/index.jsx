@@ -9,7 +9,7 @@ function HomePage({ posts }) {
     <Fragment>
       <Head>
         <title>Nikita's Shid Blog</title>
-        <meta name="description" content="I blog about shids and fards" />
+        <meta name="description" content="I blog about coding" />
       </Head>
       <Hero />
       <FeaturedPosts posts={posts} />
